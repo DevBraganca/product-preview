@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@media only screen and (min-width: 410px) {
+body{
+    padding: 150px 500px;
+    display: flex;
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+aside img{
+    border-radius: 10px 0px 0px 10px;
+}
+#mobile{
+    display: none;
+}
+#desktop{
+    display: block;
+}
+section{
+    background-color: white;
+    padding: 50px 30px;
+    margin: 0px 120px 4px 0px;
+    border-radius: 0px 10px 10px 0px;
+}
+section h1{
+    font-family: 'Fraunces', serif !important; 
+    font-size: 45px;
+    line-height: 40px;
+    padding: 20px 0px 30px;
+}
+section p{
+    font-size: 20px;
+    line-height: 25px;
+    color: gray;
+}
+#money{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0px;
+    margin-right: 80px;
+    color: #01744d;
+}
+#money p{
+    text-decoration:line-through;
+    color: gray;
+    margin-left: 20px;
+}
+button{
+    background-color: #01744d;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 95%;
+    height: 50px;
+    cursor: pointer;
+}
+    button:hover{
+        background-color: #004931;
+        transition-duration: 0.3s;
+    }
+}
+@media only screen and (max-width: 410px) {
+    body{
+        background-color: antiquewhite;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #desktop{
+        display: none;
+    }
+    #mobile{
+        border-radius: 10px 10px 0px 0px;
+    }
+    section{
+        background-color: white;
+        padding: 20px;
+        margin-top: -3px;
+        margin-right: 7px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    section h1{
+        font-size: 30px;
+        padding: 10px 0px 20px;
+        font-family: 'Fraunces', serif !important; 
+    }
+    section p{
+        color: gray;
+        line-height: 25px;
+    }
+    #money{
+        color: #004931;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #money p{
+        margin-right: 110px;
+        font-size: 15px;
+        text-decoration: line-through;
+    }
+    button{
+        width: 95%;
+        height: 45px;
+        background-color: #01744d;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+}
